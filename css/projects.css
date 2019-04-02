@@ -1,0 +1,10 @@
+.projects__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+    padding: 0 4rem 0 4rem;
+}
+
+.projects__item p {
+    max-width: 80%;
+}
