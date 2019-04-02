@@ -41,6 +41,11 @@ nav {
     transition: 0.2s ease-in-out;
 }
 
+.nav__items a:active {
+    border-bottom: #E24E24 solid 0.2rem;
+    border-bottom-width: 0.2rem;
+  }
+
 .monogram {
 height: 2rem;
 width: 2rem;
@@ -48,7 +53,7 @@ width: 2rem;
 
 footer {
     z-index: 10;
-    position: fixed;
+    position: absolute;
     bottom: 1rem;
     left: 1rem;
     display: inline-flex;
@@ -71,7 +76,7 @@ footer {
 
 .title {
     margin-left: -1rem;
-    margin-top: -2rem;
+    margin-top: 2rem;
 }
 
 .orange__line {
