@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.main__screen--title {
+    display: flexbox;
+}
+
+.hero__word {
+    z-index: -1;
+}
+    
+.first__word {
+    margin-left: -1rem;
+    margin-top: -2rem;
+}
+
+.second__word {
+    margin-right: -1rem;
+    margin-top: -25rem;
+    font-size: 17rem;
+    right: 0;
+    position: fixed;
+}
+
+.ampersand {
+    color: #e24e24;
+    font-size: 35rem;
+    z-index: 1;
+    margin-top: -17rem;
+    margin-right: -2rem;
+    justify-self: center;
+}
+
+.hero__ampersand {
+    display: flex;
+    justify-content: center;
+}
+
+.main__screen--para--upper {
+    position: fixed;
+    top: 7rem;
+    right: 2rem;
+    text-align: right;
+}
+
+.main__screen--para--lower {
+    position: fixed;
+    bottom: 5rem;
+    left: 1rem;
+    text-align: left;
+}
+
+@media (min-width: 1000px) {
+
+    .main__screen--para {
+        max-width: 22rem;
+    }
+
+}
+
+
