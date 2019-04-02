@@ -41,11 +41,6 @@ nav {
     transition: 0.2s ease-in-out;
 }
 
-.nav__items a:active {
-    border-bottom: #E24E24 solid 0.2rem;
-    border-bottom-width: 0.2rem;
-  }
-
 .monogram {
 height: 2rem;
 width: 2rem;
