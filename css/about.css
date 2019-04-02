@@ -32,6 +32,10 @@ p + p {
     text-decoration: underline;
 }
 
+footer {
+    position: absolute;
+}
+
 @media (min-width: 1250px) {
 
     .about__copy {
