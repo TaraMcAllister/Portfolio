@@ -2,9 +2,38 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
-    padding: 0 4rem 0 4rem;
+    padding: 2rem 7rem 2rem 7rem;
 }
 
 .projects__item p {
-    max-width: 80%;
+    max-width: 90%;
+}
+
+.projects__item h3 {
+    padding-top: 3rem;
+}
+
+.projects__item h3:hover {
+    color: rgb(156, 51, 22);
+    transition: 0.2s ease-in-out;
+}
+
+.item__container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.item__container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.orange__line--p {
+    width: 4rem;
+    height: 0.3rem;
+    background-color: #E24E24;
+    margin-top: 3rem;
 }
