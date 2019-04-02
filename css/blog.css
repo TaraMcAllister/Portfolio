@@ -1,0 +1,19 @@
+.orange__container {
+    background-color: #E24E24;
+    height: 100%;
+    width: 30vw;
+    position: absolute;
+    z-index: -10;
+}
+
+.blog__container {
+    width: 70vw;
+    padding: 0 2rem 0 2rem;
+    overflow: auto;
+}
+
+.blog__item__container {
+    right: 0;
+    max-width: 45rem;
+    position: absolute;
+}
