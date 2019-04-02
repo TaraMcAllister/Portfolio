@@ -86,3 +86,18 @@ footer {
     background-color: #E24E24;
     margin-top: -0.9rem;
 }
+
+.orange__line--p {
+    width: 4rem;
+    height: 0.3rem;
+    background-color: #E24E24;
+    margin-top: 3rem;
+}
+
+.orange__line--b {
+    width: 4rem;
+    height: 0.3rem;
+    background-color: #E24E24;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
