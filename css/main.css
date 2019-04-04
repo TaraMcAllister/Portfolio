@@ -28,7 +28,7 @@ nav {
     display: inline-flex;
     top: 0;
     right: 0;
-    position: fixed;
+    position: absolute;
     padding-top: 1.3rem;
 }
 
