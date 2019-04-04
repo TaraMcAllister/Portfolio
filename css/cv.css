@@ -1,23 +1,10 @@
 .cv__container {
-    width: 70vw;
     padding: 0 2rem 0 2rem;
     padding-top: 50vh;
 }
 
-.cv__item__container {
-    right: 0;
-    max-width: 45rem;
-    position: absolute;
-    z-index: -1;
-}
-
 .cv__item {
     padding: 3rem 0 1rem 0;
-    max-width: 85%;
-}
-
-.about__info {
-    max-width: 90%;
 }
 
 .education__info {
@@ -25,7 +12,7 @@
 }
 
 .contact__info {
-    padding: 0 0 3rem 0;
+    padding: 0 0 2rem 0;
 }
 
 .contact__info a:hover {
@@ -54,9 +41,9 @@ p + p {
     padding-top: 1rem;
 }
 
-footer {
+/* footer {
     position: fixed;
-}
+} */
 
 .home__monogram {
     position: fixed;
@@ -65,4 +52,67 @@ footer {
 
 .title {
     position: fixed;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .home__monogram {
+        position: absolute;
+        margin-top: 1rem;
+    }
+    
+    .title {
+        position: absolute;
+    }
+
+    footer {
+        margin-left: 1rem;
+    }
+
+    .cv__two__column {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .second__column {
+        padding: 3rem 0 1rem 0;
+    }
+
+    .contact__info h2 {
+        font-size: 1.7rem;
+    }
+
+    .cv__container {
+        width: 100vw;
+    }
+
+    .cv__item {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 700px) {
+    footer {
+        position: fixed;
+    }
+
+.cv__item__container {
+    max-width: 45rem;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.cv__container {
+    width: 70vw;
+}
+
+.cv__item {
+    max-width: 85%;
+}
+
+.about__info {
+    max-width: 90%;
+}
+    
 }
