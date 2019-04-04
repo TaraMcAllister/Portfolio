@@ -96,3 +96,11 @@ footer {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
+
+.orange__container {
+    background-color: #E24E24;
+    height: 100%;
+    width: 30vw;
+    position: absolute;
+    z-index: -10;
+}
