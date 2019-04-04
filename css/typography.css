@@ -32,6 +32,13 @@
     color: #A3A3A3;
     font-family: 'Source Sans Pro', sans-serif;
   }
+
+  .desc {
+    font-size: 1.15rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #A3A3A3;
+    font-weight: 400;
+  }
   
   ul {
     font-size: 1rem;
@@ -39,11 +46,11 @@
     color: #A3A3A3;
   }
   
-  /* li:before {
+  .bullets li:before {
     content: "-";
-    padding-right: 1rem;
+    padding-right: 0.5rem;
     color: #A3A3A3;
-  } */
+  }
 
   nav {
     font-size: 0.8rem;
