@@ -46,6 +46,10 @@ height: 2rem;
 width: 2rem;
 }
 
+.home__monogram {
+    z-index: 2;
+}
+
 footer {
     z-index: 10;
     right: 0;
@@ -73,6 +77,8 @@ footer {
 .title {
     margin-left: -1rem;
     margin-top: 2rem;
+    z-index: 2;
+    position: relative;
 }
 
 .orange__line {
@@ -101,6 +107,9 @@ footer {
     background-color: #E24E24;
     height: 100%;
     width: 30vw;
-    position: absolute;
-    z-index: -10;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 1;
+  top: 0;
+  left: 0;
 }

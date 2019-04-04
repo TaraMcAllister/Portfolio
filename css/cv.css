@@ -1,13 +1,14 @@
 .cv__container {
     width: 70vw;
     padding: 0 2rem 0 2rem;
-    overflow: auto;
+    padding-top: 40vh;
 }
 
 .cv__item__container {
     right: 0;
     max-width: 45rem;
     position: absolute;
+    z-index: -1;
 }
 
 .cv__item {
@@ -24,7 +25,7 @@
 }
 
 .contact__info {
-    padding: 0 0 4rem 0;
+    padding: 0 0 3rem 0;
 }
 
 .contact__info a:hover {
@@ -54,5 +55,14 @@ p + p {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
+}
+
+.home__monogram {
+    position: fixed;
+    margin-top: 1rem;
+}
+
+.title {
+    position: fixed;
 }
