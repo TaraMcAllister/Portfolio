@@ -1,0 +1,58 @@
+.cv__container {
+    width: 70vw;
+    padding: 0 2rem 0 2rem;
+    overflow: auto;
+}
+
+.cv__item__container {
+    right: 0;
+    max-width: 45rem;
+    position: absolute;
+}
+
+.cv__item {
+    padding: 3rem 0 1rem 0;
+    max-width: 85%;
+}
+
+.about__info {
+    max-width: 90%;
+}
+
+.education__info {
+    padding: 0 0 1rem 0;
+}
+
+.contact__info {
+    padding: 0 0 4rem 0;
+}
+
+.contact__info a:hover {
+        color: #A3A3A3;
+        transition: 0.2s ease-in-out;
+}
+
+.cv__item__container h3 {
+    padding-top: 1rem;
+}
+
+p + p {
+    padding: 1rem 0 0 0;
+}
+
+.desc {
+    padding: 0 0 1rem 0;
+}
+
+.cv__two__column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second__column {
+    padding-top: 1rem;
+}
+
+footer {
+    position: absolute;
+}
