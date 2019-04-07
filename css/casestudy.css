@@ -1,0 +1,48 @@
+h1 {
+        line-height: 100%;
+        padding: 0 0 4rem 0;
+    }
+
+.hero__container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero__container img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.case__info__container {
+    padding-left: 30vw;
+}
+
+footer {
+    background-color: #E24E24;
+    width: 100%;
+    justify-content: center;
+}
+
+footer h3 {
+    color: #FFFFFF;
+}
+
+/* DRO */
+.three__grid--focuses {
+    padding: 2rem 0 2rem 0;
+}
+
+.three__grid--item {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0 0 3rem;
+}
+
+.orange__line--c {
+    margin: 0 0.5rem 0 0;
+}
+
+
