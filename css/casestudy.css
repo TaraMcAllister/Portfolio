@@ -16,33 +16,116 @@ h1 {
     position: relative;
 }
 
-.case__info__container {
-    padding-left: 30vw;
-}
-
 footer {
     background-color: #E24E24;
     width: 100%;
-    justify-content: center;
+    display: block;
+    text-align: center;
+}
+
+footer h3:hover {
+    color: rgb(156, 51, 22);
+    transition: 0.2s ease-in-out;
+}
+
+footer h2:hover {
+    color: rgb(156, 51, 22);
+    transition: 0.2s ease-in-out;
 }
 
 footer h3 {
     color: #FFFFFF;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+}
+
+p + p {
+    padding-top: 1rem;
 }
 
 /* DRO */
 .three__grid--focuses {
     padding: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .three__grid--item {
-    display: inline-flex;
-    align-items: center;
-    padding: 0 0 0 3rem;
+    display: inline-block;
+    padding: 0 6rem 0 6rem;
+}
+
+.three__grid--item h3 {
+    font-size: 1.2rem;
+    padding: 0 0 0.2rem 0;
 }
 
 .orange__line--c {
     margin: 0 0.5rem 0 0;
 }
 
+.case__info--container {
+    display: inline-flex;
+    max-width: 100%;
+    padding: 1rem 12% 2rem 10%;
+}
 
+.case__info--title {
+    width: 30vw;
+    display: inline-flex;
+    align-items: center;
+}
+
+.case__info--content {
+    width: 70vw;
+    padding: 1rem 0 0 0;
+}
+
+.sketches__container {
+    display: grid;
+    grid-template-columns: 26% 48% 26%;
+}
+
+.sketches__item--first {
+   grid-column: 1;
+   width: 100%;
+}
+
+.sketches__item--second {
+    grid-column: 2;
+    width: 100%;
+}
+
+.sketches__item--third {
+    grid-column: 3;
+    width: 100%;
+}
+
+.arrow__container {
+    display: inline-flex;
+}
+
+.sketches__info {
+    padding: 2rem 15% 2rem 15%;
+}
+
+.full__container {
+    display: flex;
+    justify-content: center;
+}
+
+.full__item {
+    width: 100vw;
+    height: 100%;
+}
+
+.full__item {
+    width: 100vw;
+    height: 100%;
+}
+
+.mid__item {
+    width: 60vw;
+    height: 100%;
+}
