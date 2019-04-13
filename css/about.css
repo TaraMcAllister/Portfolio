@@ -16,12 +16,13 @@ p + p {
 }
 
 .about__copy a {
-    color: #E24E24;
+    color: #C4C4C4;
+    text-decoration: underline;
 }
 
 .about__copy a:hover {
-    color: #E24E24;
-    text-decoration: underline;
+    color: rgb(124, 124, 124);
+    transition: ease-in-out 0.5s;
 }
 
 footer {

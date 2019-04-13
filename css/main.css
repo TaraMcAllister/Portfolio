@@ -37,7 +37,7 @@ nav {
 }
 
 .nav__items li:hover {
-    color: #A3A3A3;
+    color: #c4c4c4;
     transition: 0.2s ease-in-out;
 }
 
@@ -70,7 +70,7 @@ footer {
 }
 
 .social li:hover {
-    color: #A3A3A3;
+    color: #c4c4c4;
     transition: 0.2s ease-in-out;
 }
 

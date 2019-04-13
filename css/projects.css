@@ -13,7 +13,7 @@
     padding-top: 3rem;
 }
 
-.projects__item h3:hover {
+.projects__item a h3:hover {
     color: rgb(156, 51, 22);
     transition: 0.2s ease-in-out;
 }
